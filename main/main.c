@@ -1,3 +1,7 @@
+// COLIN VAUGHAN 1/20/2026
+// This code connects to a LED output and a button input
+// The code assumes the button is in an active high configuration
+// Pressing the button activates the LED on every other button press
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
 
